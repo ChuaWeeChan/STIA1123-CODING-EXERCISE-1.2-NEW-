@@ -1,0 +1,50 @@
+package Tablet;
+
+/**
+ *
+ * @author CHUA WEE CHAN 271948
+ */
+public class Tablet {
+    String Brand;
+    String OperatingSystem;
+    int Year;
+    String Size;
+    
+    void printIpad(){
+        Brand="Apple";
+        OperatingSystem="ios";
+        Year=2019;
+        Size="9.8inch x 6.8inch";
+        
+        System.out.println("The brand of the ipad is "+Brand);
+        System.out.println("The operating system of the ipad is "+OperatingSystem);
+        System.out.println("The release year of the ipad is "+Year);
+        System.out.println("The size of the ipad is "+Size);
+        
+    }
+  
+    void printMatePad(){
+        Brand="Huawei";
+        OperatingSystem="EMUI";
+        Year=2019;
+        Size="245.2mm X 155mm";
+        
+        System.out.println("The brand of the MatePad is "+Brand);
+        System.out.println("The operating system of the MatePad is "+OperatingSystem);
+        System.out.println("The release year of the MatePad is "+Year);
+        System.out.println("The size of the MatePad is "+Size);
+        
+    }
+    
+    void printGalaxyTabActive(){
+        Brand="Samsung";
+        OperatingSystem="Android";
+        Year=2020;
+        Size="8inch";
+        
+        System.out.println("The brand of the Galaxy Tab Active is "+Brand);
+        System.out.println("The operating system of the Galaxy Tab Active is "+OperatingSystem);
+        System.out.println("The release year of the Galaxy Tab Active is "+Year);
+        System.out.println("The size of the Galaxy Tab Active is "+Size);
+    }
+}
