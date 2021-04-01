@@ -1,0 +1,24 @@
+package Tablet;
+
+/**
+ *
+ * @author CHUA WEE CHAN 271948
+ */
+public class Main {
+    public static void main(String[] args) {
+        
+        Tablet Ipad = new Tablet();//create new object name as Ipad.
+        Ipad.printIpad();
+        
+        System.out.println(""); //empty line
+        
+        Tablet MatePad = new Tablet(); //create new object name as MatePad.
+        MatePad.printMatePad();
+        
+        System.out.println(""); //empty line
+        
+        Tablet GalaxyTabActive = new Tablet(); //create new object name as Galaxy Tab Active
+        GalaxyTabActive.printGalaxyTabActive();
+    }
+    
+}
